@@ -35,9 +35,8 @@ class MyApp extends StatelessWidget {
           title: 'Pokedex',
           debugShowCheckedModeBanner: false,
           //home: new MainWidget(),
-          initialRoute: WelcomeScreen.routeName,
+          initialRoute: LoginScreen.routeName,
           routes: {
-            WelcomeScreen.routeName: (context) => WelcomeScreen(),
             LoginScreen.routeName: (context) => LoginScreen(),
             MainWidget.routeName: (context) => const MainWidget(),
             PokemonDetailsScreen.routeName: (context) =>
