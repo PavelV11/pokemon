@@ -7,7 +7,6 @@ import 'package:pokedex_mobile/screens/login_screen.dart';
 import 'package:pokedex_mobile/screens/pokemon_details.dart';
 import 'package:pokedex_mobile/screens/pokemon_favorite_list.dart';
 import 'package:pokedex_mobile/screens/pokemon_screen.dart';
-import 'package:pokedex_mobile/screens/welcome_screen.dart';
 import 'package:provider/provider.dart';
 import 'firebase_options.dart';
 import 'screens/category_screen.dart';
